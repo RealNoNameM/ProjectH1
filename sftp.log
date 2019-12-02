@@ -1,0 +1,25 @@
+Dec  2 09:05:50 10.71.56.0 a10895 Connection from 10.71.56.0 port 51206 on 82.165.80.88 port 22
+Dec  2 09:05:55 10.71.56.0 a10895 Accepted password for a10895 from 10.71.56.0 port 51206 ssh2
+Dec  2 09:05:56 10.71.56.0 a10895 Starting session: subsystem 'sftp' for a10895 from 10.71.56.0 port 51206
+Dec  2 09:05:56 10.71.56.0 a10895 session opened for local user a10895 from [10.71.56.0]
+Dec  2 09:07:04 10.71.56.0 a10895 Connection from 10.71.56.0 port 40558 on 82.165.80.88 port 22
+Dec  2 09:07:05 10.71.56.0 a10895 Accepted password for a10895 from 10.71.56.0 port 40558 ssh2
+Dec  2 09:07:04 10.71.56.0 a10895 Connection from 10.71.56.0 port 40554 on 82.165.80.88 port 22
+Dec  2 09:07:05 10.71.56.0 a10895 Accepted password for a10895 from 10.71.56.0 port 40554 ssh2
+Dec  2 09:07:05 10.71.56.0 a10895 Starting session: subsystem 'sftp' for a10895 from 10.71.56.0 port 40554
+Dec  2 09:07:05 10.71.56.0 a10895 Starting session: subsystem 'sftp' for a10895 from 10.71.56.0 port 40558
+Dec  2 09:07:05 10.71.56.0 a10895 session opened for local user a10895 from [10.71.56.0]
+Dec  2 09:07:05 10.71.56.0 a10895 session opened for local user a10895 from [10.71.56.0]
+Dec  2 09:07:05 10.71.56.0 a10895 sent status No such file
+Dec  2 09:07:06 10.71.56.0 a10895 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  2 09:07:06 10.71.56.0 a10895 sent status No such file
+Dec  2 09:07:06 10.71.56.0 a10895 open "/script.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  2 09:07:06 10.71.56.0 a10895 close "/index.html" bytes read 0 written 619
+Dec  2 09:07:06 10.71.56.0 a10895 [10.71.56.0|put|0|619|0|0|0|2f696e6465782e68746d6c|]
+Dec  2 09:07:06 10.71.56.0 a10895 close "/script.js" bytes read 0 written 804
+Dec  2 09:07:06 10.71.56.0 a10895 [10.71.56.0|put|0|804|0|0|0|2f7363726970742e6a73|]
+Dec  2 09:07:06 10.71.56.0 a10895 sent status No such file
+Dec  2 09:07:06 10.71.56.0 a10895 open "/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec  2 09:07:07 10.71.56.0 a10895 close "/style.css" bytes read 0 written 845
+Dec  2 09:07:07 10.71.56.0 a10895 [10.71.56.0|put|1|845|0|0|0|2f7374796c652e637373|]
+Dec  2 09:07:54 10.71.56.0 a10895 open "/logs/sftp.log" flags READ mode 0666
