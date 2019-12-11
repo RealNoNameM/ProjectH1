@@ -1,0 +1,76 @@
+body {
+  background-color: #00BFFF
+}
+
+
+#headline {
+  color: #fff;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 3000;
+  font-size: 32px;
+}
+
+.answer_field {
+  display: inline-block;
+  width: 670px;
+  height: 252px;
+  border: 2px solid black;
+  font-family: 'Oswald', sans-serif;
+}
+
+.inputfeld {
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.inputfeldnumber {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.headerplayer {
+  color: green;
+  margin-top: 2px;
+  font-family: 'fantasy', Impact;
+}
+
+.h1 {
+  font-family: 'fantasy' , Luminari;
+  color: orange;
+  font-size: 88px;
+}
+
+-webkit-inner-spin-button,
+-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+.button {
+  background-color: #00BFFF;
+  border: none;
+  color: orange;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration-color: black;
+}
+
+.button:hover {
+  color: black;
+}
